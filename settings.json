@@ -1,0 +1,27 @@
+{
+  // Ces deux commandes devraient déjà être dans votre fichier //  
+    "r.rterm.linux": "/home/yohann/.local/bin/radian",
+    "r.bracketedPaste": true,
+  // Fin //
+  
+    "r.alwaysUseActiveTerminal": true,  
+    "r.plot.useHttpgd": true,
+    "r.plot.defaults.fullWindowMode": true,
+    
+    "r.removeLeadingComments": true,
+    "r.session.levelOfObjectDetail": "Normal",
+    "files.associations": {
+        "*.Rmd": "rmd",
+        "*.R": "r"
+    },
+  
+    "[r]": {
+    "editor.defaultFormatter": "REditorSupport.r",
+    "editor.formatOnSave": true,
+    "editor.wordSeparators": "`~!@#%$^&*()-=+[{]}\\|;:'\",<>/?"
+  },
+  "[rmd]": {
+    "editor.defaultFormatter": "REditorSupport.r",
+    "editor.formatOnSave": true
+  }
+}
