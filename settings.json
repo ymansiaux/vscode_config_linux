@@ -12,7 +12,8 @@
     "r.session.levelOfObjectDetail": "Normal",
     "files.associations": {
         "*.Rmd": "rmd",
-        "*.R": "r"
+        "*.R": "r",
+        "*.qmd": "qmd"
     },
   
     "[r]": {
