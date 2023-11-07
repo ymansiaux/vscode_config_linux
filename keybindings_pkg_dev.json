@@ -1,0 +1,51 @@
+   // Roxygen skeleton
+    {
+        "key": "ctrl+alt+shift+r",
+        "command": "type",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": {
+            "text": "\n#' Title\n#'\n#' Description\n#'\n#' @param\n#'\n#' @export\n#' \n#' @example\n"
+        }
+    },
+    // Build
+    {
+        "description": "Build",
+        "key": "Ctrl+Shift+B",
+        "command": "r.runCommand",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": "devtools::build()"
+    },
+    {
+        "description": "Load All (devtools)",
+        "key": "Ctrl+Shift+L",
+        "command": "r.runCommand",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": "devtools::load_all()"
+    },
+    {
+        "description": "Test Package",
+        "key": "Ctrl+Shift+T",
+        "command": "r.runCommand",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": "devtools::test()"
+    },
+    {
+        "description": "Check Package",
+        "key": "Ctrl+Shift+E",
+        "command": "r.runCommand",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "args": "devtools::check()"
+    },
+    {
+        "description": "Document Package",
+        "key": "Ctrl+Shift+D",
+        "when": "editorLangId == r || editorLangId == rmd",
+        "command": "r.runCommand",
+        "args": "devtools::document()"
+    },
+    {
+        "description": "See definition",
+        "key": "f2",
+        "when": "editorLangId == r || editorLangId == rmd && editorTextFocus",
+        "command": "editor.action.revealDefinition"
+    }
