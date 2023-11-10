@@ -12,10 +12,8 @@
     "r.session.levelOfObjectDetail": "Normal",
     "files.associations": {
         "*.Rmd": "rmd",
-        "*.R": "r",
-        "*.qmd": "qmd"
-    },
-  
+        "*.R": "r"
+    },  
     "[r]": {
     "editor.defaultFormatter": "REditorSupport.r",
     "editor.formatOnSave": true,
